@@ -13,11 +13,12 @@ public class ProblemEnvironment {
 	
 	// Problem Specification Variables
 	public static boolean MULTIOBJECTIVE = false;
+	public static int TARGET_BONUS = 5;
 	public static final int HEIGHT = 500;
 	public static final int WIDTH = 500;
 	public static final int MAX_STEPS = (int)(((HEIGHT + WIDTH) / 25) * 1.2);
 	public static final int TARGET_SIZE = ((HEIGHT + WIDTH) / 2) / 20;
-	public static final int TARGET_BONUS = 5;
+
 	
 	// 0th index is percentage of the screen the region will use, must sum to 1
 	// 1st index is speed in that region
